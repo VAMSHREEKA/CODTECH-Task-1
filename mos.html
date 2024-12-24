@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vamshreeka portfolio</title>
+    <link rel="stylesheet" href="mos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <style>
+        /* Ensure the body and html take the full height of the screen */
+        html, body {
+            height: 50%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Container for the grid with a 100% height */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive columns */
+            gap: 10px; /* Space between grid items */
+            padding: 10px;
+            height: 100%;
+            box-sizing: border-box;
+            background-color: #b2feb8;
+        }
+
+        /* Style for each grid item */
+        .grid-item {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(242, 22, 22, 0.1);
+            height: 100%; /* Ensures the items fit in the container */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+
+    <section class="hero">
+        <div class="main-width">
+            <!-- Nav bar begun -->
+            <header>
+                <div class="logo">
+                    <i class="fa-sharp fa-light fa-m fa-fade"></i>
+                </div>
+                <nav>
+                    <ul class="nav-list">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About me</a></li>
+                        <li><a href="skills.html">Skills</a></li>
+                        <li><a href="education.html">Education</a></li>
+                        <li><a href="experience.html">Experience</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li class="btn"><a href="mailto:mohsinahmedmn004@gmail.com" target="_blank">Contact Me</a></li>
+               
+                <div class="grid-container">
+                    
+                    
+                    <div class="grid-item"><a href="index2.html">ABOUT ME</a></div>
+                    <div class="grid-item"><a href="index3.html">SKILLS</a></div>
+                    <div class="grid-item"><a href="index5.html">Education</a></div>
+                    
+                    <div class="grid-item"><a href="index4.html">PROJECTS</a></div>
+                    
+                   
+
+                   
+                </div>
+               </centre>         
+    
+
+                    </ul>
+                </nav>
+            </header>
+            <!-- Nav bar end -->
+            <!-- Start of main content -->
+                <div class="container">
+                    <div class="hero-text">
+                        <h1>Hey, Guys !</h1>
+                        <h1>I am <span class="input">VAMSHREEKA</span></h1>
+                        <p>Full Stack developer</p><br>
+                       
+                        <a href="mailto:vamshreeka@gmail.com" target="_blank"><button type="button">For more information</button></a>
+                    </div>
+                    <div class="bottem">
+                        <p>© 2024 Vamshreeka Portfolio - All Rights Reserved.</p>
+                    </div>
+                </div>
+                <!-- End of main container -->
+        </div>
+    </section>
+    <!-- Start of script -->
+    <script type="text/javascript" src="js/script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".input",
+        {
+            strings:["Vamshreeka P.","an ECE Student.","Front-end developer."],
+            typespeed: 2,
+            backspeed: 5,
+            loop:true
+        });
+    </script>
+    <!-- End of Script -->
+   
+</body>
+</html>
