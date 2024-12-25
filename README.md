@@ -1,3 +1,8 @@
+Name: Vamshreeka p
+company: CODTECH IT SOLUTIONS
+ID:CT08EON
+Domain:Front end development
+Duration:December 20 2024- january 20 2025
 ### Overview:
 
 A **Personal Portfolio Website** is a self-promotional online platform that showcases an individual’s skills, projects, achievements, and experiences. It's an essential tool for professionals such as web developers, designers, photographers, writers, and anyone looking to present their work to potential clients, employers, or collaborators. This website serves as a digital resume and an interactive experience that highlights personal branding.
